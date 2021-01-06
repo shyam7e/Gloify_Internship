@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <nav class="navbar bg-white d-flex align-items-center ">
+        <div class="logo"><img src="./Images/Capture.PNG" alt=""> </div>
+            
+        
+          <div class="rightNav text-white">
+              <form action="#" >
+                  <input type="text" class="rounded inputt" placeholder="Search">
+                  <button class="btn btnn"><i class="fa fa-search"></i></button>
+              </form>
+              <div class="dropdown">
+                
+                    <div class="dropdown mx-4 rounded dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               
+                    </div >
+               
+                <div class="dropdown-menu menudrop shadow-lg" aria-labelledby="dropdownMenuButton">
+                    <div class=" my-2 w-100 d-flex justify-content-center"><div class="dropdownn"></div></div>
+                    <a href="#" class="dropdown-item p-2 my-2 w-100 d-flex justify-content-center"> <span class="h">Gloify</span></a>
+                   <a href="#" class="dropdown-item p-2"><div class="profileImg my-2  d-flex"><img src="./Images/profile.svg" class="mx-2" alt="">  <span class="h">Invent Chat</span></div></a>   
+                   <a href="#" class="dropdown-item p-2"><div class="profileImg my-2 d-flex"><img src="./Images/profile.svg" class="mx-2" alt="">  <span class="h">Invent Suite</span></div></a> 
+                   <a href="#" class="dropdown-item p-2"><div class="profileImg my-2  d-flex"><img src="./Images/profile.svg" class="mx-2" alt=""> <span class="h">Invent Suite</span></div></a
+                   <a href="#" class="dropdown-item p-2">
+                       <div class="profileImg my-2 mx-2 d-flex">
+                           <img src="./Images/profile.svg" class="mx-2" alt="">
+                           <span class="h">Slack</span>
+                       </div>
+                    </a> 
+                   <div class=" hh11 d-flex m-4 justify-content-center"><button class="btn btn-sm btn-outline-danger border-2 m-auto"><span class="hh">+ Add New Company</span></button>
+                   </div>
+                </div>
+              </div>
+             
+              <div class="d-flex justify-content-center align-items-center ">
+                <i class="fa fa-bell text-dark" ></i>
+                <div class="profileImg mx-4"><img src="./Images/profile.svg" alt=""></div>
+              </div>
+             
+          </div>
+      </nav>
+    </header>
+    <main class="d-flex">
+        <aside>
+            <ul class="ul">
+                <li><a  class="active" href="./index.html"><i class="fa fa-home "></i> Home</a></li>
+                <li><a  href="#"><i class="fa fa-briefcase"></i> Order</a></li>
+                <li><a  href="#"><i class="fa fa-product-hunt"></i> Product</a></li>
+                <li><a  href="./customer.html"><i class="fa fa-users"></i> Customers</a></li>
+                <li><a  href="#"><i class="fa fa-building"></i> Warehouse</a></li>
+            </ul>
+        </aside>
+        <div class="product mr-5">
+            <div class="add_product shadow-lg p-4 rounded"> 
+                <p>Products</p>
+                <h1>Add Products</h1>
+                <div class="form-label mt-3">First Name</div>
+                <input class="form-control"></input>
+                <div class="form-label mt-4">Description</div>
+                <div class="box mt-2">
+                    <div class="box2 px-2">
+                        <i class="fa fa-bold mx-2"></i>
+                        <i class="fa fa-italic mx-2"></i>
+                        <i class="fa fa-underline mx-2"></i>
+                        <i class="fa fa-list-ol mx-2"></i>
+                        <i class="fa fa-list-ul mx-2"></i>
+                        <i class="fa fa-code mx-2"></i>
+                    </div>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+               </div>
+               <div class="add_product shadow-lg p-4">
+                   <h1 class="mx-2">Add Products</h1>
+                   <div class="grid">
+                    <img src="./Images/image4.jpg">
+                    <img src="./Images/image2.jpg">
+                    <img src="./Images/image3.jpg">
+                    <img src="./Images/image1.jpg">
+                   </div>
+            </div>
+
+        </div>
+        <div class="rightBox ml-2 rounded">
+            <h1>Quantity</h1>
+            <div class="form-label">Available</div>
+            <input type="text" class="form-control">
+            <h1 class="mt-5">Pricing</h1>
+            <div class="form-label">Price</div>
+            <input class="form-control"></input>
+            <div class="form-label mt-4">Cost per item</div>
+            <input class="form-control"></input>
+            <div class="checkbox mt-2"><p><input type="checkbox" class="checkbox mx-2">Change tax on this product</p></div>
+            <h1 class="mt-5">Product Details</h1>
+            <div class="form-group">
+                <label for="sel1">Product type</label>
+                <select class="form-control" id="sel1">
+                  <option>Redme note 9 pro</option>
+                  <option>Nokia</option>
+                  <option>Samsung</option>
+                  <option>Micromax</option>
+                </select>
+              </div>
+              <h1 class="mt-5">Tags</h1>
+              <div class="form-label">Type Tags</div>
+              <input class="form-control my-2"></input>
+        </div>
+       
+       
+    </main>
+</body>
+</html>
